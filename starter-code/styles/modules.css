@@ -10,7 +10,8 @@
 
 /* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
 .icon-menu {
-  float: right;
+  position:absolute;
+  right:5px;
   font-size: 4em;
 }
 
@@ -60,13 +61,14 @@
          - Just, ya know, try to make it look good! */
  @media screen and (min-width: 640px) {
    .icon-menu {
-     font-size: 0px;
+     display: none;
+   }
+   .main-nav ul{
+     display: block;
+   }
+   .main-nav li{
+     display:inline-block;
+     padding: 50%;
+     border-bottom: 0px;
    }
  }
-
-@media screen and (max-width: 800px) {
-  .main-nav {
-    display: block;
-    padding: 10px;
-  }
-}
