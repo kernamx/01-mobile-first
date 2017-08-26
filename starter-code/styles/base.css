@@ -1,8 +1,8 @@
-/* TODO: Add a rule for images, so they never exceed their container's width. */
+/* done: Add a rule for images, so they never exceed their container's width. */
 
 
 img {
-       max-width: 90%;
+       max-width: 100%;
        /*background-color: red;*/
 
  }
